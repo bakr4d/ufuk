@@ -81,33 +81,32 @@ export function resolveMedia(src: string): ResolvedMedia {
 
 
 export const socialVideos: SocialVideo[] = [
-  { id: 'sv01', src: '../public/public/حجاب.mp4', title: { en: 'Reel 01', ar: 'ريلز 01' }, category: { en: 'Social Media', ar: 'سوشيال ميديا' }, ratio: '9:16' },
-  { id: 'sv02', src: '../public/public/واحد.mp4', title: { en: 'Reel 02', ar: 'ريلز 02' }, category: { en: 'Social Media', ar: 'سوشيال ميديا' }, ratio: '9:16' },
-  { id: 'sv03', src: '../public/public/واحدة.mp4', title: { en: 'Reel 03', ar: 'ريلز 03' }, category: { en: 'Social Media', ar: 'سوشيال ميديا' }, ratio: '9:16' },
-  { id: 'sv05', src: '../public/public/واعظ.mp4', title: { en: 'Reel 05', ar: 'ريلز 05' }, category: { en: 'Social Media', ar: 'سوشيال ميديا' }, ratio: '16:9' },
-  { id: 'sv06', src: '../public/public/مكتب.mp4', title: { en: 'Reel 06', ar: 'ريلز 06' }, category: { en: 'Social Media', ar: 'سوشيال ميديا' }, ratio: '9:16' },
-  { id: 'sv07', src: '../public/public/قاعة.mp4', title: { en: 'Reel 07', ar: 'ريلز 07' }, category: { en: 'Social Media', ar: 'سوشيال ميديا' }, ratio: '9:16' },
-  { id: 'sv08', src: '../public/public/ست.mp4', title: { en: 'Reel 08', ar: 'ريلز 08' }, category: { en: 'Social Media', ar: 'سوشيال ميديا' }, ratio: '16:9' },
-  { id: 'sv09', src: '../public/public/شيك.mp4', title: { en: 'Reel 09', ar: 'ريلز 09' }, category: { en: 'Social Media', ar: 'سوشيال ميديا' }, ratio: '9:16' },
-  { id: 'sv10', src: '/public/public/بيت.mp4', title: { en: 'Reel 10', ar: 'ريلز 10' }, category: { en: 'Social Media', ar: 'سوشيال ميديا' }, ratio: '9:16' },
-  { id: 'sv11', src: '/public/public/شابه.mp4', title: { en: 'Reel 11', ar: 'ريلز 11' }, category: { en: 'Social Media', ar: 'سوشيال ميديا' }, ratio: '9:16' },
+  { id: 'sv01', src: '../public/imgesandphotos/حجاب.mp4', title: { en: 'Reel 01', ar: 'ريلز 01' }, category: { en: 'Social Media', ar: 'سوشيال ميديا' }, ratio: '9:16' },
+  { id: 'sv02', src: '../public/imgesandphotos/واحد.mp4', title: { en: 'Reel 02', ar: 'ريلز 02' }, category: { en: 'Social Media', ar: 'سوشيال ميديا' }, ratio: '9:16' },
+  { id: 'sv03', src: '../public/imgesandphotos/واحدة.mp4', title: { en: 'Reel 03', ar: 'ريلز 03' }, category: { en: 'Social Media', ar: 'سوشيال ميديا' }, ratio: '9:16' },
+  { id: 'sv05', src: '../public/imgesandphotos/واعظ.mp4', title: { en: 'Reel 05', ar: 'ريلز 05' }, category: { en: 'Social Media', ar: 'سوشيال ميديا' }, ratio: '16:9' },
+  { id: 'sv06', src: '../public/imgesandphotos/مكتب.mp4', title: { en: 'Reel 06', ar: 'ريلز 06' }, category: { en: 'Social Media', ar: 'سوشيال ميديا' }, ratio: '9:16' },
+  { id: 'sv07', src: '../public/imgesandphotos/قاعة.mp4', title: { en: 'Reel 07', ar: 'ريلز 07' }, category: { en: 'Social Media', ar: 'سوشيال ميديا' }, ratio: '9:16' },
+  { id: 'sv08', src: '../public/imgesandphotos/ست.mp4', title: { en: 'Reel 08', ar: 'ريلز 08' }, category: { en: 'Social Media', ar: 'سوشيال ميديا' }, ratio: '16:9' },
+  { id: 'sv09', src: '../public/imgesandphotos/شيك.mp4', title: { en: 'Reel 09', ar: 'ريلز 09' }, category: { en: 'Social Media', ar: 'سوشيال ميديا' }, ratio: '9:16' },
+  { id: 'sv10', src: '../public/imgesandphotos/بيت.mp4', title: { en: 'Reel 10', ar: 'ريلز 10' }, category: { en: 'Social Media', ar: 'سوشيال ميديا' }, ratio: '9:16' },
+  { id: 'sv11', src: '/public/imgesandphotos/شابه.mp4', title: { en: 'Reel 11', ar: 'ريلز 11' }, category: { en: 'Social Media', ar: 'سوشيال ميديا' }, ratio: '9:16' },
 ];
 
 export const marketingWorks: MarketingWork[] = [
   // DEMO - replace
-  { id: 'mk01', src:'/public/public/تصميمات/54.png', title: { en: 'Project 01', ar: 'مشروع 01' }, category: { en: 'Digital Marketing', ar: 'التسويق الرقمي' }, kind: 'design', size: 'wide' },
-  { id: 'mk02', src: '/public/public/تصميمات/kofta.JPG', title: { en: 'Project 02', ar: 'مشروع 02' }, category: { en: 'Digital Marketing', ar: 'التسويق الرقمي' }, kind: 'design', size: 'tall' },
-  // end DEMO
-  { id: 'mk03', src: '/public/public/تصميمات/df2.png', title: { en: 'Logo 03', ar: 'شعار 03' }, category: { en: 'Digital Marketing', ar: 'التسويق الرقمي' }, kind: 'logo', size: 'standard' },
-  { id: 'mk04', src: '/public/public/تصميمات/4.jpg', title: { en: 'Logo 04', ar: 'شعار 04' }, category: { en: 'Digital Marketing', ar: 'التسويق الرقمي' }, kind: 'logo', size: 'standard' },
-  { id: 'mk05', src: '/public/public/تصميمات/7.jpg', title: { en: 'Logo 05', ar: 'شعار 05' }, category: { en: 'Digital Marketing', ar: 'التسويق الرقمي' }, kind: 'logo', size: 'standard' },
-  { id: 'mk06', src: '/public/public/تصميمات/build.JPG', title: { en: 'Logo 06', ar: 'شعار 06' }, category: { en: 'Digital Marketing', ar: 'التسويق الرقمي' }, kind: 'logo', size: 'standard' },
-  { id: 'mk07', src: '/public/public/تصميمات/building.jpg', title: { en: 'Design 07', ar: 'تصميم 07' }, category: { en: 'Digital Marketing', ar: 'التسويق الرقمي' }, kind: 'design', size: 'standard' },
-  { id: 'mk08', src: '/public/public/تصميمات/Tarb.JPG', title: { en: 'Design 08', ar: 'تصميم 08' }, category: { en: 'Digital Marketing', ar: 'التسويق الرقمي' }, kind: 'design', size: 'tall' },
-  { id: 'mk09', src: '/public/public/تصميمات/sawndiwth.JPG', title: { en: 'Design 09', ar: 'تصميم 09' }, category: { en: 'Digital Marketing', ar: 'التسويق الرقمي' }, kind: 'design', size: 'wide' },
-  { id: 'mk10', src: '/public/public/تصميمات/pizza.jpg', title: { en: 'Logo 10', ar: 'شعار 10' }, category: { en: 'Digital Marketing', ar: 'التسويق الرقمي' }, kind: 'logo', size: 'standard' },
-  { id: 'mk11', src: '/public/public/تصميمات/Juice.JPG', title: { en: 'Logo 11', ar: 'شعار 11' }, category: { en: 'Digital Marketing', ar: 'التسويق الرقمي' }, kind: 'logo', size: 'standard' },
-  { id: 'mk12', src: '/public/public/تصميمات/df2.png', title: { en: 'Design 12', ar: 'تصميم 12' }, category: { en: 'Digital Marketing', ar: 'التسويق الرقمي' }, kind: 'design', size: 'standard' },
+  { id: 'mk01', src: '/public/imgesandphotos/تصميمات/54.png', title: { en: 'Project 01', ar: 'مشروع 01' }, category: { en: 'Digital Marketing', ar: 'التسويق الرقمي' }, kind: 'design', size: 'wide' },
+  { id: 'mk02', src: '/public/imgesandphotos/تصميمات/kofta.JPG', title: { en: 'Project 02', ar: 'مشروع 02' }, category: { en: 'Digital Marketing', ar: 'التسويق الرقمي' }, kind: 'design', size: 'tall' },
+  { id: 'mk03', src: '/public/imgesandphotos/تصميمات/df2.png', title: { en: 'Logo 03', ar: 'شعار 03' }, category: { en: 'Digital Marketing', ar: 'التسويق الرقمي' }, kind: 'logo', size: 'standard' },
+  { id: 'mk04', src: '/public/imgesandphotos/تصميمات/4.jpg', title: { en: 'Logo 04', ar: 'شعار 04' }, category: { en: 'Digital Marketing', ar: 'التسويق الرقمي' }, kind: 'logo', size: 'standard' },
+  { id: 'mk05', src: '/public/imgesandphotos/تصميمات/7.jpg', title: { en: 'Logo 05', ar: 'شعار 05' }, category: { en: 'Digital Marketing', ar: 'التسويق الرقمي' }, kind: 'logo', size: 'standard' },
+  { id: 'mk06', src: '/public/imgesandphotos/تصميمات/build.JPG', title: { en: 'Logo 06', ar: 'شعار 06' }, category: { en: 'Digital Marketing', ar: 'التسويق الرقمي' }, kind: 'logo', size: 'standard' },
+  { id: 'mk07', src: '/public/imgesandphotos/تصميمات/building.jpg', title: { en: 'Design 07', ar: 'تصميم 07' }, category: { en: 'Digital Marketing', ar: 'التسويق الرقمي' }, kind: 'design', size: 'standard' },
+  { id: 'mk08', src: '/public/imgesandphotos/تصميمات/Tarb.JPG', title: { en: 'Design 08', ar: 'تصميم 08' }, category: { en: 'Digital Marketing', ar: 'التسويق الرقمي' }, kind: 'design', size: 'tall' },
+  { id: 'mk09', src: '/public/imgesandphotos/تصميمات/sawndiwth.JPG', title: { en: 'Design 09', ar: 'تصميم 09' }, category: { en: 'Digital Marketing', ar: 'التسويق الرقمي' }, kind: 'design', size: 'wide' },
+  { id: 'mk10', src: '/public/imgesandphotos/تصميمات/pizza.jpg', title: { en: 'Logo 10', ar: 'شعار 10' }, category: { en: 'Digital Marketing', ar: 'التسويق الرقمي' }, kind: 'logo', size: 'standard' },
+  { id: 'mk11', src: '/public/imgesandphotos/تصميمات/Juice.JPG', title: { en: 'Logo 11', ar: 'شعار 11' }, category: { en: 'Digital Marketing', ar: 'التسويق الرقمي' }, kind: 'logo', size: 'standard' },
+  { id: 'mk12', src: '/public/imgesandphotos/تصميمات/df2.png', title: { en: 'Design 12', ar: 'تصميم 12' }, category: { en: 'Digital Marketing', ar: 'التسويق الرقمي' }, kind: 'design', size: 'standard' },
 ];
 
 // export const websiteWorks: WebsiteWork[] = [
