@@ -78,10 +78,7 @@ export function resolveMedia(src: string): ResolvedMedia {
   return { kind: 'image', imgSrc: src };
 }
 
-const demoImages = {
-  campaign: 'https://images.pexels.com/photos/4925629/pexels-photo-4925629.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
-  strategy: 'https://images.pexels.com/photos/7598009/pexels-photo-7598009.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
-};
+
 
 export const socialVideos: SocialVideo[] = [
   { id: 'sv01', src: '../public/public/حجاب.mp4', title: { en: 'Reel 01', ar: 'ريلز 01' }, category: { en: 'Social Media', ar: 'سوشيال ميديا' }, ratio: '9:16' },
