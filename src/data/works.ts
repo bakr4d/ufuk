@@ -81,7 +81,6 @@ export function resolveMedia(src: string): ResolvedMedia {
 
 
 export const socialVideos: SocialVideo[] = [
-  
   { id: 'sv01', src: '../public/imgesandphotos/a.mp4', title: { en: 'Reel 01', ar: 'ريلز 01' }, category: { en: 'Social Media', ar: 'سوشيال ميديا' }, ratio: '9:16' },
   { id: 'sv02', src: '../public/imgesandphotos/b.mp4', title: { en: 'Reel 02', ar: 'ريلز 02' }, category: { en: 'Social Media', ar: 'سوشيال ميديا' }, ratio: '9:16' },
   { id: 'sv03', src: '../public/imgesandphotos/c.mp4', title: { en: 'Reel 03', ar: 'ريلز 03' }, category: { en: 'Social Media', ar: 'سوشيال ميديا' }, ratio: '9:16' },
