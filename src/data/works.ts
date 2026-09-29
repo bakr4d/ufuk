@@ -94,7 +94,8 @@ export const socialVideos: SocialVideo[] = [
 ];
 
 export const marketingWorks: MarketingWork[] = [
-  // DEMO - replace
+  // DEMO - replace 
+  
   { id: 'mk01', src: '/public/imgesandphotos/design/54.png', title: { en: 'Project 01', ar: 'مشروع 01' }, category: { en: 'Digital Marketing', ar: 'التسويق الرقمي' }, kind: 'design', size: 'wide' },
   { id: 'mk02', src: '/public/imgesandphotos/design/kofta.JPG', title: { en: 'Project 02', ar: 'مشروع 02' }, category: { en: 'Digital Marketing', ar: 'التسويق الرقمي' }, kind: 'design', size: 'tall' },
   { id: 'mk03', src: '/public/imgesandphotos/design/df2.png', title: { en: 'Logo 03', ar: 'شعار 03' }, category: { en: 'Digital Marketing', ar: 'التسويق الرقمي' }, kind: 'logo', size: 'standard' },
@@ -106,7 +107,6 @@ export const marketingWorks: MarketingWork[] = [
   { id: 'mk09', src: '/public/imgesandphotos/design/sawndiwth.JPG', title: { en: 'Design 09', ar: 'تصميم 09' }, category: { en: 'Digital Marketing', ar: 'التسويق الرقمي' }, kind: 'design', size: 'wide' },
   { id: 'mk10', src: '/public/imgesandphotos/design/pizza.jpg', title: { en: 'Logo 10', ar: 'شعار 10' }, category: { en: 'Digital Marketing', ar: 'التسويق الرقمي' }, kind: 'logo', size: 'standard' },
   { id: 'mk11', src: '/public/imgesandphotos/design/Juice.JPG', title: { en: 'Logo 11', ar: 'شعار 11' }, category: { en: 'Digital Marketing', ar: 'التسويق الرقمي' }, kind: 'logo', size: 'standard' },
-  { id: 'mk12', src'imgesandphotos/design/df2.png', title: { en: 'Design 12', ar: 'تصميم 12' }, category: { en: 'Digital Marketing', ar: 'التسويق الرقمي' }, kind: 'design', size: 'standard' },
 ];
 
 // export const websiteWorks: WebsiteWork[] = [
