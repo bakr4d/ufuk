@@ -81,16 +81,16 @@ export function resolveMedia(src: string): ResolvedMedia {
 
 
 export const socialVideos: SocialVideo[] = [
-  { id: 'sv01', src: '../public/imgesandphotos/a.mp4', title: { en: 'Reel 01', ar: 'ريلز 01' }, category: { en: 'Social Media', ar: 'سوشيال ميديا' }, ratio: '9:16' },
-  { id: 'sv02', src: '../public/imgesandphotos/b.mp4', title: { en: 'Reel 02', ar: 'ريلز 02' }, category: { en: 'Social Media', ar: 'سوشيال ميديا' }, ratio: '9:16' },
-  { id: 'sv03', src: '../public/imgesandphotos/c.mp4', title: { en: 'Reel 03', ar: 'ريلز 03' }, category: { en: 'Social Media', ar: 'سوشيال ميديا' }, ratio: '9:16' },
-  { id: 'sv05', src: '../public/imgesandphotos/d.mp4', title: { en: 'Reel 05', ar: 'ريلز 05' }, category: { en: 'Social Media', ar: 'سوشيال ميديا' }, ratio: '16:9' },
-  { id: 'sv06', src: '../public/imgesandphotos/e.mp4', title: { en: 'Reel 06', ar: 'ريلز 06' }, category: { en: 'Social Media', ar: 'سوشيال ميديا' }, ratio: '9:16' },
-  { id: 'sv07', src: '../public/imgesandphotos/z.mp4', title: { en: 'Reel 07', ar: 'ريلز 07' }, category: { en: 'Social Media', ar: 'سوشيال ميديا' }, ratio: '9:16' },
-  { id: 'sv08', src: '../public/imgesandphotos/f.mp4', title: { en: 'Reel 08', ar: 'ريلز 08' }, category: { en: 'Social Media', ar: 'سوشيال ميديا' }, ratio: '16:9' },
-  { id: 'sv09', src: '../public/imgesandphotos/g.mp4', title: { en: 'Reel 09', ar: 'ريلز 09' }, category: { en: 'Social Media', ar: 'سوشيال ميديا' }, ratio: '9:16' },
-  { id: 'sv10', src: '../public/imgesandphotos/s.mp4', title: { en: 'Reel 10', ar: 'ريلز 10' }, category: { en: 'Social Media', ar: 'سوشيال ميديا' }, ratio: '9:16' },
-  { id: 'sv11', src: '/public/imgesandphotos/y.mp4', title: { en: 'Reel 11', ar: 'ريلز 11' }, category: { en: 'Social Media', ar: 'سوشيال ميديا' }, ratio: '9:16' },
+  { id: 'sv01', src: '/imgesandphotos/a.mp4', title: { en: 'Reel 01', ar: 'ريلز 01' }, category: { en: 'Social Media', ar: 'سوشيال ميديا' }, ratio: '9:16' },
+  { id: 'sv02', src: '/imgesandphotos/b.mp4', title: { en: 'Reel 02', ar: 'ريلز 02' }, category: { en: 'Social Media', ar: 'سوشيال ميديا' }, ratio: '9:16' },
+  { id: 'sv03', src: '/imgesandphotos/c.mp4', title: { en: 'Reel 03', ar: 'ريلز 03' }, category: { en: 'Social Media', ar: 'سوشيال ميديا' }, ratio: '9:16' },
+  { id: 'sv05', src: '/imgesandphotos/d.mp4', title: { en: 'Reel 05', ar: 'ريلز 05' }, category: { en: 'Social Media', ar: 'سوشيال ميديا' }, ratio: '16:9' },
+  { id: 'sv06', src: '/imgesandphotos/e.mp4', title: { en: 'Reel 06', ar: 'ريلز 06' }, category: { en: 'Social Media', ar: 'سوشيال ميديا' }, ratio: '9:16' },
+  { id: 'sv07', src: '/imgesandphotos/z.mp4', title: { en: 'Reel 07', ar: 'ريلز 07' }, category: { en: 'Social Media', ar: 'سوشيال ميديا' }, ratio: '9:16' },
+  { id: 'sv08', src: '/imgesandphotos/f.mp4', title: { en: 'Reel 08', ar: 'ريلز 08' }, category: { en: 'Social Media', ar: 'سوشيال ميديا' }, ratio: '16:9' },
+  { id: 'sv09', src: '/imgesandphotos/g.mp4', title: { en: 'Reel 09', ar: 'ريلز 09' }, category: { en: 'Social Media', ar: 'سوشيال ميديا' }, ratio: '9:16' },
+  { id: 'sv10', src: '/imgesandphotos/s.mp4', title: { en: 'Reel 10', ar: 'ريلز 10' }, category: { en: 'Social Media', ar: 'سوشيال ميديا' }, ratio: '9:16' },
+  { id: 'sv11', src: '/imgesandphotos/y.mp4', title: { en: 'Reel 11', ar: 'ريلز 11' }, category: { en: 'Social Media', ar: 'سوشيال ميديا' }, ratio: '9:16' },
 ];
 
 export const marketingWorks: MarketingWork[] = [
@@ -106,7 +106,7 @@ export const marketingWorks: MarketingWork[] = [
   { id: 'mk09', src: '/public/imgesandphotos/design/sawndiwth.JPG', title: { en: 'Design 09', ar: 'تصميم 09' }, category: { en: 'Digital Marketing', ar: 'التسويق الرقمي' }, kind: 'design', size: 'wide' },
   { id: 'mk10', src: '/public/imgesandphotos/design/pizza.jpg', title: { en: 'Logo 10', ar: 'شعار 10' }, category: { en: 'Digital Marketing', ar: 'التسويق الرقمي' }, kind: 'logo', size: 'standard' },
   { id: 'mk11', src: '/public/imgesandphotos/design/Juice.JPG', title: { en: 'Logo 11', ar: 'شعار 11' }, category: { en: 'Digital Marketing', ar: 'التسويق الرقمي' }, kind: 'logo', size: 'standard' },
-  { id: 'mk12', src: '/public/imgesandphotos/design/df2.png', title: { en: 'Design 12', ar: 'تصميم 12' }, category: { en: 'Digital Marketing', ar: 'التسويق الرقمي' }, kind: 'design', size: 'standard' },
+  { id: 'mk12', src'imgesandphotos/design/df2.png', title: { en: 'Design 12', ar: 'تصميم 12' }, category: { en: 'Digital Marketing', ar: 'التسويق الرقمي' }, kind: 'design', size: 'standard' },
 ];
 
 // export const websiteWorks: WebsiteWork[] = [
