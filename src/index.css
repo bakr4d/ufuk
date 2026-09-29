@@ -5,6 +5,7 @@
 @tailwind utilities;
 
 :root {
+  
   --ink: #0D0D0D;
   --ink-2: #161412;
   --ink-3: #1c1916;
